@@ -1,0 +1,29 @@
+#STEP-1
+
+# Create the Dockerfile with help of "mkdir Dockerfile" command.
+# Use "cd Dockerfile" to change directory.
+# Then use "touch Dockerfile" to create ann empty file in the directot=ry.
+# With the help of "vim Dockerfile" enter the file and press "I" to insert.
+
+# SOURCE FOR THE IMAGE 
+FROM <NAMEOFTHESOURCE>
+
+
+MAINTAINER <name of the MAINTAINER>
+
+
+RUN apt-get update
+
+
+CMD ["echo", "helloworld....!!!"]
+
+#STEP-2
+
+# WITH HELP OF "docker build -t imagename:tagname ." command build the image 
+# NOW CHECK WHETHER IMAGE IS CREATED OR NOT BY USING "docker images"
+# LOGIN TO YOUR DOCKER HUB ACCOUT BY " 'docker login' and give the credential to it like username and password. "  
+# NOW PUSH THE IMAGE TO YOUR DOCKERHUB ACCOUT BY USING "docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]"
+    EXAMPLE : docker tag myimage1:latest <DOCKERHUB username>/myimage1 
+# NOW PUSH YOUR IMAGE TO DOCKERHUB THROUGH < docker push imagename >
+
+    
