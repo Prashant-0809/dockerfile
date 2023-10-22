@@ -2,7 +2,7 @@
 
 # Create the Dockerfile with help of "mkdir Dockerfile" command.
 # Use "cd Dockerfile" to change directory.
-# Then use "touch Dockerfile" to create an empty file in the directot=ry.
+# Then use "touch Dockerfile" to create an empty file in the directotry.
 # With the help of "vim Dockerfile" enter the file and press "I" to insert.
 
 # SOURCE FOR THE IMAGE 
